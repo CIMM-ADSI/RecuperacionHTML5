@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta object </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;object&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -124,7 +124,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;object&gt; Etiqueta. </h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -148,17 +148,24 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Teletipo &lt;object&gt;.
+                            <small class="pull-right">Fecha: 16/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
-                          <h5>Ejemplo</h5>
+                          
+                          <h2>Ejemplo</h2>
+
+                          <p>Como utilizar el elemento &lt;object&gt; para incrustar un archivo Flash:</p>
+
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>&lt;object width=&quot;400&quot; height=&quot;400&quot; data=&quot;helloworld.swf&quot;&gt;&lt;/object&gt; Try it Yourself &raquo;</code> 
                           </p>
+
+                          <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_object"><ins>Inténtalo tú mismo</ins></a>
+
                         </blockquote>
                       </div>
+
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
@@ -166,9 +173,11 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>La etiqueta &lt;object&gt; define un objeto incrustado en un documento HTML. Utilice este elemento para incrustar multimedia (como audio, vídeo, applets de Java, ActiveX, PDF y Flash) en sus páginas web.</p> 
+
+                            <p>También puede utilizar la etiqueta &lt;object&gt; para insertar otra página web en el documento HTML.</p>
+
+                            <p>Puede utilizar la etiqueta <a href="http://www.w3schools.com/tags/tag_param.asp" target="_blank"> <ins>&lt;param&gt;</ins> </a>para pasar parámetros a los plugins que se han incrustado con la etiqueta &lt;object&gt;.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -193,7 +202,7 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
+                                          <td style="text-align:left;">&lt;object&gt;</td>
                                           <td>Si</td>
                                           <td>Si</td>
                                           <td>Si</td>
@@ -212,15 +221,15 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-text"></i> Notas y sugerencias.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              <p><b>Nota:</b> Un elemento &lt;object&gt; debe aparecer dentro del elemento &lt;body&gt;. El texto entre las etiquetas &lt;object&gt; y &lt;/object&gt; es un texto alternativo, para los navegadores que no soportan esta etiqueta.</p>
+
+                              <p><b>Consejo:</b> Para imágenes utilizan la etiqueta &lt;img&gt; en lugar de la etiqueta &lt;object&gt;.</p>
+
+                              <p><b>Consejo:</b> Al menos uno de los "datos" o atributo "tipo" deberá ser definido.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -232,11 +241,161 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>Algunos atributos HTML 4.01 no son compatibles con HTML5.</p>
+
+                              <p>El atributo "form" es nuevo en HTML5.</p>
+
+                              <p>En HTML5, los objetos se pueden utilizar y presentarse en las formas.</p>
+
+                              <p>En HTML5, los objetos ya no pueden aparecer dentro del elemento &lt;head&gt; de un documento.</p>
+
                           </blockquote>
                         </div>
                       </div>
+
+
+<!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos.
+                        </h1>
+                        <blockquote>
+                        <p> <img src="images/HTML5_logo_and_wordmark.svg.png">= Nuevo en Html </p>
+                        </blockquote>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody>
+                                        <tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Atributo</th>
+                                          <th style="width:40%;font-size:16px;text-align:left;">Valor</th>
+                                          <th style="width:100%;font-size:16px;text-align:left;">Descripción</th>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_form.asp" target="_blank"><ins> align </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> form_id </td>
+                                          <td> Especifíca una o más formas al pertecener al elemento &lt;meter&gt;</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> archive</td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Especifica el rango que se considera que es un valor alto</td>
+                                        </tr>
+
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_max.asp" target="_blank"><ins> border </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Especifica el valor máximo del rango</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_min.asp" target="_blank"><ins> classid </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Especifica el valor mínimo del rango</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_optimum.asp" target="_black"><ins> codebase </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Especifica qué valor es el valor óptimo para el indicador</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> codetype </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>17
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> data </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> declare </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> form </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> height </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> hspace </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> name </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> standby </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> type </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> usemap </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> vspace </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                           <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> width </ins></a></td>
+                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
+                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                        </tr>
+
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>                      
+                        </div>
+                      </div>
+
+
+
+
+
+
+
+
 
                     </section>
                   </div>

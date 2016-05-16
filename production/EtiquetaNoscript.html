@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta noscript </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;noscript&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -124,7 +124,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;noscript&gt; Etiqueta. </h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -148,15 +148,22 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Teletipo &lt;noscript&gt;.
+                            <small class="pull-right">Fecha: 16/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
-                          <h5>Ejemplo</h5>
+                          <h2>Ejemplo</h2><br>
+                          <p>El uso de la etiqueta &lt;noscript&gt;:</p>
+                          
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>&lt;script&gt;<br>
+                                     document.write(&quot;Hola Mundo!&quot;)<br>
+                                     &lt;/script&gt;<br>
+                                  &lt;noscript&gt;Su navegador no soporta JavaScript!&lt;/noscript&gt;</code> 
                           </p>
+
+                          <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_noscript"><ins>Inténtalo tú mismo</ins></a>
+
                         </blockquote>
                       </div>
                       <!-- /.row -->
@@ -166,9 +173,15 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+
+                            <p>La etiqueta &lt;noscript&gt; define un contenido alternativo para los usuarios que tienen secuencias de comandos con discapacidad en su navegador o tener un navegador que no admite la escritura.</p>
+
+                            <p>El elemento &lt;noscript&gt; se puede utilizar tanto en &lt;head&gt; y &lt;body&gt;.</p>
+
+                            <p>Cuando se utiliza dentro del elemento &lt;head&gt;: &lt;noscript&gt; debe contener únicamente los siguientes elementos  &lt;link&gt;, &lt;style&gt; y &lt;meta&gt;.</p>
+
+                            <p>El contenido dentro del elemento &lt;noscript&gt; se mostrará si no son compatibles con las secuencias de comandos, o se desactivan en el navegador del usuario.</p>
+
                           </blockquote>
                         </div>
                       </div>
@@ -193,7 +206,7 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
+                                          <td style="text-align:left;">&lt;noscript&gt;</td>
                                           <td>Si</td>
                                           <td>Si</td>
                                           <td>Si</td>
@@ -212,18 +225,27 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-code-o"></i> Notas y sugerencias.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              <p><b>Consejo:</b> También es una buena práctica utilizar la etiqueta de <a href="http://www.w3schools.com/tags/tag_comment.asp" target="_blank"><ins> comentario</ins></a> a los guiones "ocultar" de los navegadores sin soporte para scripts del lado del cliente (para que no se muestren como texto sin formato): </p>
+
+                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            
+                            <code>&lt;script&gt;<br>
+                             &lt;!-- <br>
+                             function displayMsg() { <br>
+                             alert(&quot;Hola Mundo!&quot;)<br>
+                              }<br>
+                              //--&gt;<br>
+                              &lt;/script&gt;</code> 
+                          </p>
+
                           </blockquote>
                         </div>
                       </div>
+
 
                       <!-- /.row -->
                        <div class="row invoice-info">
@@ -232,8 +254,57 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>En HTML 4.01, la etiqueta &lt;noscript&gt; sólo se puede utilizar dentro del elemento &lt;body&gt;. </p>
+                              <p>En HTML5, la etiqueta &lt;noscript&gt; se puede utilizar tanto en el interior &lt;head&gt; y &lt;body&gt;.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML y XHTML.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>En XHTML, la etiqueta &lt;noscript&gt; no es compatible.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Atributos globales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;noscript&gt; también soporta los <a href="http://www.w3schools.com/tags/ref_standardattributes.asp" target="_blank"><ins>atributos globales en HTML</ins>. </a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Páginas relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Tutorial de HTML: <a href="http://www.w3schools.com/html/html_scripts.asp" target="_blank"> <ins> Scripts HTML </ins></a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                        <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Ajustes por defecto CSS.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Ninguno.</p>
                           </blockquote>
                         </div>
                       </div>

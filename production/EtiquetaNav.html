@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta nav </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;nav&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -124,7 +124,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;nav&gt; Etiqueta.</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -148,15 +148,22 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Teletipo &lt;nav&gt;.
+                            <small class="pull-right">Fecha: 16/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
-                          <h5>Ejemplo</h5>
+                          <h1>Ejemplo</h1>
+                          <p>Un conjunto de enlaces de navegación:</p>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>&lt;nav&gt;<br>
+                                     &lt;a href=&quot;/html/&quot;&gt;HTML&lt;/a&gt; |<br>
+                                     &lt;a href=&quot;/css/&quot;&gt;CSS&lt;/a&gt; | <br>
+                                     &lt;a href=&quot;/js/&quot;&gt;JavaScript&lt;/a&gt; | <br>
+                                     &lt;a href=&quot;/jquery/&quot;&gt;jQuery&lt;/a&gt; <br>
+                                  &lt;/nav&gt;</code> 
                           </p>
+
+                          <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_nav" target="_blank"><ins> Inténtalo tú mismo</ins></a>
                         </blockquote>
                       </div>
                       <!-- /.row -->
@@ -166,9 +173,13 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>
+                            La etiqueta &lt;nav&gt; define un conjunto de enlaces de navegación.<br><br>
+                            Tenga en cuenta que no todos los enlaces de un documento deben estar dentro de un elemento &lt;nav&gt;. 
+                            El elemento &lt;nav&gt; se dirige a los principales bloques de <b>vínculos de navegación</b>.<br><br>
+                            Navegadores, tales como lectores de pantalla para usuarios con discapacidad, pueden utilizar este elemento para determinar si se debe omitir la prestación inicial de este contenido.
+                            </p>
+                            
                           </blockquote>
                         </div>
                       </div>
@@ -186,19 +197,19 @@
                                      <table class="table table-striped">
                                         <tbody><tr>
                                           <th style="width:20%;font-size:16px;text-align:left;">Elemento</th>
-                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th>
+                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th><br>
                                           <th style="width:31px; height: 30px;" class="bsEdge" title="Internet Explorer / Edge"></th>
                                           <th style="width:31px; height: 30px;" class="bsFirefox" title="Firefox"></th>
                                           <th style="width:31px; height: 30px;" class="bsSafari" title="Safari"></th>
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
+                                          <td style="text-align:left;">&lt;nav&gt;</td><br>
+                                          <td>6.0</td>
+                                          <td>9.0</td>
+                                          <td>4.0</td>
+                                          <td>5.0</td>
+                                          <td>11.1</td>
                                         </tr>
                                         </tbody>
                                       </table>
@@ -212,15 +223,11 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              <p>La etiqueta &lt;nav&gt; es nueva en HTML5.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -228,15 +235,59 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                            <i class="fa fa-file-code-o"></i> Atributos Globales.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>La etiqueta &lt;nav&gt; también soporta los <a href="http://www.w3schools.com/tags/ref_standardattributes.asp" target="_black"><ins> atributos globales en HTML</ins>. </a></p>
                           </blockquote>
                         </div>
                       </div>
+
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;nav&gt; también soporta los <a href="http://www.w3schools.com/tags/ref_eventattributes.asp" target="black"><ins>atributos del evento en HTML</ins>. </a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Páginas Relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Referencia HTML DOM: <a href="http://www.w3schools.com/jsref/dom_obj_nav.asp" target="_black"><ins> objetos nav</ins>. </a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Ajustes por defecto CSS.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La mayoría de los navegadores mostrarán el elemento &lt;nav&gt; con los siguientes valores predeterminados:</p>
+                              <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>  nav { <br>
+                                    display: block; <br>
+                                    }
+                            </code> 
+                             </p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      
 
                     </section>
                   </div>
