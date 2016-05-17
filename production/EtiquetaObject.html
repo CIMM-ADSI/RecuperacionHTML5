@@ -32,7 +32,7 @@
             <!-- menu profile quick info -->
             <div class="profile">
               <div class="profile_pic">
-                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="images/july.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Bienvenidos,</span>
@@ -88,7 +88,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="images/july.jpg" alt="">July Sierra Sierra
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -148,7 +148,7 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;object&gt;.
+                            <i class="fa fa-edit (alias)"></i> Objeto &lt;object&gt;.
                             <small class="pull-right">Fecha: 16/05/2016</small>
                         </h1>
                         <blockquote>
@@ -158,7 +158,7 @@
                           <p>Como utilizar el elemento &lt;object&gt; para incrustar un archivo Flash:</p>
 
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;object width=&quot;400&quot; height=&quot;400&quot; data=&quot;helloworld.swf&quot;&gt;&lt;/object&gt; Try it Yourself &raquo;</code> 
+                            <code>&lt;object width=&quot;400&quot; height=&quot;400&quot; data=&quot;helloworld.swf&quot;&gt;&lt;/object&gt;</code> 
                           </p>
 
                           <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_object"><ins>Inténtalo tú mismo</ins></a>
@@ -169,7 +169,7 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-home"></i> Definición y Uso.
+                            <i class="fa fa-book"></i> Definición y Uso.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
@@ -185,7 +185,7 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-globe"></i> Soporte de Navegadores.
+                            <i class="fa fa-anchor"></i> Soporte de Navegadores.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
@@ -237,7 +237,7 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                            <i class="fa fa-arrows-v"></i> Diferencias entre HTML 4.01 y HTML5.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
@@ -257,7 +257,7 @@
 <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-globe"></i> Atributos.
+                            <i class="fa fa-ticket"></i> Atributos.
                         </h1>
                         <blockquote>
                         <p> <img src="images/HTML5_logo_and_wordmark.svg.png">= Nuevo en Html </p>
@@ -276,106 +276,116 @@
                                         </tr>
                                         
                                         <tr>
-                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_form.asp" target="_blank"><ins> align </ins></a></td>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_object_align.asp" target="_blank"><ins> align </ins></a></td>
+                                          <td> top<br> bottom<br> middle<br> left<br> right </td> 
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Especifica la alineación del elemento &lt;object&gt; de acuerdo con los elementos que rodean</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> archive </td>
+                                          <td> URL </td>                                          
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Una lista de espacio de direcciones URL a los archivos separados. Los archivos contienen los recursos pertinentes al objeto.</td>
+                                        </tr>
+
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_object_border.asp" target="_blank"><ins> border </ins></a></td>
+                                          <td> pixels </td>
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Especifica el ancho del borde alrededor de un &lt;object&gt;</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"> classid </td>
+                                          <td> class_ID </td>
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Define un valor de ID de clase tal como se establece en el registro de Windows o una URL</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"> codebase </td>
+                                          <td>  URL </td>
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Define dónde encontrar el código para el objeto</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <td style="text-align:left;"> codetype </td>
+                                          <td> media_type </td>
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          El tipo de medio del código que hace referencia el atributo classid</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_data.asp" target="_black"> <ins> data </ins></a></td>
+                                          <td>  URL </td>
+                                          <td> Especifica la dirección URL del recurso para ser utilizado por el objeto</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> declare </td>
+                                          <td> declare </td>
+                                          <td> <small style="color: red" >No soportada en HTML5</small>
+                                          Define que el objeto sólo debe ser declarado, no crea ni se crea la instancia hasta que sea necesario</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_form.asp" target="_black"> <ins> form </ins></a></td>
                                           <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> form_id </td>
-                                          <td> Especifíca una o más formas al pertecener al elemento &lt;meter&gt;</td>
+                                          <td> Especifica una o más formas del objeto perteneciente</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> archive</td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Especifica el rango que se considera que es un valor alto</td>
-                                        </tr>
-
-                                        
-                                        <tr>
-                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_max.asp" target="_blank"><ins> border </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Especifica el valor máximo del rango</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_meter_min.asp" target="_blank"><ins> classid </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Especifica el valor mínimo del rango</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_optimum.asp" target="_black"><ins> codebase </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Especifica qué valor es el valor óptimo para el indicador</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> codetype </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
-                                        </tr>17
-
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> data </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_height.asp" target="_black"> <ins> height </ins></a></td>
+                                          <td> pixels </td>
+                                          <td> Especifica la altura del objeto</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> declare </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_hspace.asp" target="_black"> <ins> hspace </ins></a></td>
+                                          <td> pixels </td>
+                                          <td><small style="color: red" >No soportada en HTML5</small>
+                                          Especifica el espacio en blanco en el lado izquierdo y derecho de un objeto</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> form </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_name.asp" target="_black"> <ins> name </ins></a></td>
+                                          <td> name </td>
+                                          <td> Especifica un nombre para el objeto</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> height </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> standby </td>
+                                          <td> text </td>
+                                          <small style="color: red" >No soportada en HTML5</small>
+                                          <td> Define un texto que se mostrará mientras el objeto está cargando</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> hspace </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_type.asp" target="_black"> <ins> type </ins></a></td>
+                                          <td> media_type </td>
+                                          <td> Especifica el tipo de soporte de datos especificado en el atributo de datos</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> name </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_usemap.asp" target="_black"> <ins> usemap </ins></a></td>
+                                          <td> #mapname  </td>
+                                          <td> Especifica el nombre de un mapa de imagen del lado del cliente para ser utilizado con el objeto</td>
                                         </tr>
 
                                         <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> standby </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
-                                        </tr>
-
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> type </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
-                                        </tr>
-
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> usemap </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
-                                        </tr>
-
-                                        <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> vspace </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_vspace.asp" target="_black"> <ins> vspace </ins></a></td>
+                                          <td> pixels </td>
+                                          <td><small style="color: red" >No soportada en HTML5</small>
+                                          Especifica el espacio en blanco en la parte superior e inferior de un objeto</td>
                                         </tr>
 
                                            <tr>
-                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_meter_value.asp" target="_black"> <ins> width </ins></a></td>
-                                          <td> <img src="images/HTML5_logo_and_wordmark.svg.png"> number </td>
-                                          <td> Requiere. Especificar el valor actual del medidor</td>
+                                          <td style="text-align:left;"> <a href="http://www.w3schools.com/tags/att_object_width.asp" target="_black"> <ins> width </ins></a></td>
+                                          <td> pixels </td>
+                                          <td> Especifica el ancho del objeto</td>
                                         </tr>
 
                                         </tbody>
@@ -389,11 +399,70 @@
                         </div>
                       </div>
 
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos Globales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;object&gt; también es compatible con <a href="http://www.w3schools.com/tags/ref_standardattributes.asp"><ins>los atributos globales en HTML</ins></a>.</p>
+
+                              </blockquote>
+                        </div>
+                      </div>
+
+
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-bookmark"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;object&gt; también es compatible con <a href="http://www.w3schools.com/tags/ref_eventattributes.asp"><ins> los atributos de eventos en HTML</ins></a>.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Páginas relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Tutorial de HTML: <a href="http://www.w3schools.com/html/html_object.asp"><ins> Elemento objetos HTML</ins></a>.</p>
+
+                              <p>Referencia HTML DOM: <a href="http://www.w3schools.com/jsref/dom_obj_object.asp"><ins> Objeto Objeto</ins></a>.</p>
+
+                          </blockquote>
+                        </div>
+                      </div>
 
 
 
+ <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-wrench"></i> Ajustes por defecto CSS.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                            
+                              <p>La mayoría de los navegadores mostrarán el elemento &lt;object&gt; con los siguientes valores predeterminados:</p>
+                            
+                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          <code>object:focus { <br>
+                                  outline: none;<br>
+                                  }
+                            </code> 
+                            </p>
+                              
 
-
+                          </blockquote>
+                        </div>
+                      </div>
 
 
 
