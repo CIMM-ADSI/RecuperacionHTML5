@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta frameset </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;frameset&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -124,11 +124,11 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;frameset&gt; Tag.<font size="3" color="red"> No se admite en HTML5.</font></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="#">Settings 1</a>
@@ -148,14 +148,23 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> frameset &lt;frameset&gt;.
+                            <small class="pull-right">Fecha: 18/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
+                          <p>Una simple página tres enmarcado-:</p>
                           <h5>Ejemplo</h5>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>
+                              <pre> 
+                           &lt;frameset cols=&quot;25%,*,25%&quot;&gt; <br>
+                               &lt;frame src=&quot;frame_a.htm&quot;&gt;<br> 
+                               &lt;frame src=&quot;frame_b.htm&quot;&gt; <br>
+                              &lt;frame src=&quot;frame_c.htm&quot;&gt;<br> 
+                           &lt;/frameset&gt;
+                              </pre>
+                            </code> 
+                            <p><h1><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_frame_cols" target="_blank"><small style="color: red" >Ver Ejemplo</small></a></h1></p>
                           </p>
                         </blockquote>
                       </div>
@@ -166,9 +175,11 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p><font size="3" color="red"> La etiqueta &lt;frame&gt; no es compatible con HTML5.</font></p> 
+                            <p>La etiqueta &lt;frameset&gt; define un conjunto de marcos.</p> 
+                            <p>La &lt;frameset&gt; elemento contiene uno o m&aacute;s &lt;FRAME&gt; elementos. Cada elemento &lt;frame&gt; puede contener un documento separado.</p>
+                            <p>La &lt;frameset&gt; especifica el n&uacute;mero de columnas o filas no estar&aacute;n en el conjunto de marcos, y cu&aacute;nto porcentaje / p&iacute;xeles de espacio que ocupar&aacute; cada uno de ellos.</p>
+                            <p><b>Nota:</b> Si desea validar una p&aacute;gina que contiene marcos, aseg&uacute;rese de que el &lt;! DOCTYPE&gt; se ha configurado como &quot; HTML de marcos DTD&quot; o &quot;conjunto de marcos XHTML DTD&quot;.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -193,12 +204,12 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
+                                          <td style="text-align:left;">&lt;Figure&gt;</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
                                         </tr>
                                         </tbody>
                                       </table>
@@ -212,16 +223,11 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
-                        </h1>
+                            <i class="fa fa-file-text"></i> Diferencias entre HTML y XHTML
                         <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
-                          </blockquote>
+                          <blockquote>   
+                              <p>Ninguna</p>  
+                              </blockquote>
                         </div>
                       </div>
 
@@ -232,12 +238,54 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                            <p>La etiqueta &lt;frameset&gt; no es compatible con HTML5.</p>
                           </blockquote>
                         </div>
                       </div>
 
+                      
+
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos opcionales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Atributo</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Valor</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Descripcion</th>                                            
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_frameset_cols.asp"><u>cols</u></a></td>
+                                          <td style="text-align:left;">pixels <br> % <br> *</td>
+                                          <td style="text-align:left;"><font size="3" color="red">No se admite en HTML5 .</font> <br> Especifica el número y tamaño de las columnas en un conjunto de marcos</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_frameset_rows.asp"><u>rows</u></a></td>
+                                          <td style="text-align:left;"> pixels <br> % <br> *</td>
+                                          <td style="text-align:left;"><font size="3" color="red">No se admite en HTML5 .</font> <br> Especifica el número y el tamaño de filas de un conjunto de marcos</td>
+                                        </tr>
+
+
+                                       
+                                       
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      
                     </section>
                   </div>
                 </div>
