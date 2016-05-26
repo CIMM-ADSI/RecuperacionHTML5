@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta nav </title>
+    <title>Etiqueta frameset </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
             <!-- menu profile quick info -->
             <div class="profile">
               <div class="profile_pic">
-                <img src="images/july.jpg" alt="..." class="img-circle profile_img">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Bienvenidos,</span>
@@ -49,13 +49,14 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="EtiquetaMeter.html">&lt;meter&gt;</a></li>
-                      <li><a href="EtiquetaNav.html">&lt;nav&gt;</a></li>
-                      <li><a href="EtiquetaNoframes.html">&lt;noframes&gt;</a></li>
-                      <li><a href="EtiquetaNoscript.html">&lt;noscript&gt;</a></li>
-                      <li><a href="EtiquetaObject.html">&lt;Object&gt;</a></li>
-                      <li><a href="EtiquetaOl.html">&lt;ol&gt;</a></li>
-                      <li><a href="EtiquetaOptgroup.html">&lt;optgroup&gt;</a></li>
+                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
+                      <li><a href="Font.html">&lt;font&gt;</a></li>
+                      <li><a href="footer.html">&lt;footer&gt;</a></li>
+                      <li><a href="Form.html">&lt;Form&gt;</a></li>
+                      <li><a href="frame.html">&lt;frame&gt;</a></li>
+                      <li><a href="frameset.html">&lt;frameset&gt;</a></li>
+                      <li><a href="h1ah6.html">&lt;h1 a h6&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -94,7 +95,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/july.jpg" alt="">July Sierra Sierra
+                    <img src="images/img.jpg" alt="">John Doe
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -130,7 +131,7 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;nav&gt; Etiqueta.</h2>
+                    <h2>HTML &lt;frameset&gt; Tag.<font size="3" color="red"> No se admite en HTML5.</font></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -154,40 +155,38 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-edit (alias)"></i> Objeto de Navegación &lt;nav&gt;.
-                            <small class="pull-right">Fecha: 16/05/2016</small>
+                            <i class="fa fa-code"></i> frameset &lt;frameset&gt;.
+                            <small class="pull-right">Fecha: 18/05/2016</small>
                         </h1>
                         <blockquote>
-                          <h1>Ejemplo</h1>
-                          <p>Un conjunto de enlaces de navegación:</p>
+                          <p>Una simple página tres enmarcado-:</p>
+                          <h5>Ejemplo</h5>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;nav&gt;<br>
-                                     &lt;a href=&quot;/html/&quot;&gt;HTML&lt;/a&gt; |<br>
-                                     &lt;a href=&quot;/css/&quot;&gt;CSS&lt;/a&gt; | <br>
-                                     &lt;a href=&quot;/js/&quot;&gt;JavaScript&lt;/a&gt; | <br>
-                                     &lt;a href=&quot;/jquery/&quot;&gt;jQuery&lt;/a&gt; <br>
-                                  &lt;/nav&gt;</code><br><br>
-
-                          <a style="color: green" href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_nav" target="_blank"><ins> Inténtalo tú mismo</ins></a>
+                            <code>
+                              <pre> 
+                           &lt;frameset cols=&quot;25%,*,25%&quot;&gt; <br>
+                               &lt;frame src=&quot;frame_a.htm&quot;&gt;<br> 
+                               &lt;frame src=&quot;frame_b.htm&quot;&gt; <br>
+                              &lt;frame src=&quot;frame_c.htm&quot;&gt;<br> 
+                           &lt;/frameset&gt;
+                              </pre>
+                            </code> 
+                            <p><h1><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_frame_cols" target="_blank"><small style="color: red" >Ver Ejemplo</small></a></h1></p>
                           </p>
-
-                          
                         </blockquote>
                       </div>
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-book"></i> Definición y Uso.
+                            <i class="fa fa-home"></i> Definición y Uso.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>
-                            La etiqueta &lt;nav&gt; define un conjunto de enlaces de navegación.<br><br>
-                            Tenga en cuenta que no todos los enlaces de un documento deben estar dentro de un elemento &lt;nav&gt;. 
-                            El elemento &lt;nav&gt; se dirige a los principales bloques de <b>vínculos de navegación</b>.<br><br>
-                            Navegadores, tales como lectores de pantalla para usuarios con discapacidad, pueden utilizar este elemento para determinar si se debe omitir la prestación inicial de este contenido.
-                            </p>
-                            
+                            <p><font size="3" color="red"> La etiqueta &lt;frame&gt; no es compatible con HTML5.</font></p> 
+                            <p>La etiqueta &lt;frameset&gt; define un conjunto de marcos.</p> 
+                            <p>La &lt;frameset&gt; elemento contiene uno o m&aacute;s &lt;FRAME&gt; elementos. Cada elemento &lt;frame&gt; puede contener un documento separado.</p>
+                            <p>La &lt;frameset&gt; especifica el n&uacute;mero de columnas o filas no estar&aacute;n en el conjunto de marcos, y cu&aacute;nto porcentaje / p&iacute;xeles de espacio que ocupar&aacute; cada uno de ellos.</p>
+                            <p><b>Nota:</b> Si desea validar una p&aacute;gina que contiene marcos, aseg&uacute;rese de que el &lt;! DOCTYPE&gt; se ha configurado como &quot; HTML de marcos DTD&quot; o &quot;conjunto de marcos XHTML DTD&quot;.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -195,29 +194,29 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-anchor"></i> Soporte de Navegadores.
+                            <i class="fa fa-globe"></i> Soporte de Navegadores.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <div class="col-md-12 col-sm-6 col-xs-12">
+                              <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="x_panel">
                                   <div class="x_content">
                                      <table class="table table-striped">
                                         <tbody><tr>
                                           <th style="width:20%;font-size:16px;text-align:left;">Elemento</th>
-                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th><br>
+                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th>
                                           <th style="width:31px; height: 30px;" class="bsEdge" title="Internet Explorer / Edge"></th>
                                           <th style="width:31px; height: 30px;" class="bsFirefox" title="Firefox"></th>
                                           <th style="width:31px; height: 30px;" class="bsSafari" title="Safari"></th>
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;nav&gt;</td><br>
-                                          <td>6.0</td>
-                                          <td>9.0</td>
-                                          <td>4.0</td>
-                                          <td>5.0</td>
-                                          <td>11.1</td>
+                                          <td style="text-align:left;">&lt;Figure&gt;</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
                                         </tr>
                                         </tbody>
                                       </table>
@@ -231,72 +230,69 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-arrows-v"></i> Diferencias entre HTML 4.01 y HTML5.
-                        </h1>
+                            <i class="fa fa-file-text"></i> Diferencias entre HTML y XHTML
                         <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>La etiqueta &lt;nav&gt; es nueva en HTML5.</p>
-                          </blockquote>
+                          <blockquote>   
+                              <p>Ninguna</p>  
+                              </blockquote>
                         </div>
                       </div>
 
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-globe"></i> Atributos Globales.
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>La etiqueta &lt;nav&gt; también soporta los <a href="http://www.w3schools.com/tags/ref_standardattributes.asp" target="_black"><ins> atributos globales en HTML</ins>. </a></p>
-                          </blockquote>
-                        </div>
-                      </div>
-
- <!-- /.row -->
-                       <div class="row invoice-info">
-                        <h1>
-                            <i class="fa fa-bookmark"></i> Atributos de eventos.
-                        </h1>
-                        <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>La etiqueta &lt;nav&gt; también soporta los <a href="http://www.w3schools.com/tags/ref_eventattributes.asp" target="black"><ins>atributos del evento en HTML</ins>. </a></p>
-                          </blockquote>
-                        </div>
-                      </div>
-
- <!-- /.row -->
-                       <div class="row invoice-info">
-                        <h1>
-                            <i class="fa fa-file-code-o"></i> Páginas Relacionadas.
-                        </h1>
-                        <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>Referencia HTML DOM: <a href="http://www.w3schools.com/jsref/dom_obj_nav.asp" target="_black"><ins> objetos nav</ins>. </a></p>
-                          </blockquote>
-                        </div>
-                      </div>
-
-
- <!-- /.row -->
-                       <div class="row invoice-info">
-                        <h1>
-                            <i class="fa fa-wrench"></i> Ajustes por defecto CSS.
-                        </h1>
-                        <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>La mayoría de los navegadores mostrarán el elemento &lt;nav&gt; con los siguientes valores predeterminados:</p>
-                              <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code style="color: red" >  nav { <br>
-                                    display: block; <br>
-                                    }
-                            </code> 
-                             </p>
+                            <p>La etiqueta &lt;frameset&gt; no es compatible con HTML5.</p>
                           </blockquote>
                         </div>
                       </div>
 
                       
 
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos opcionales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Atributo</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Valor</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Descripcion</th>                                            
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_frameset_cols.asp"><u>cols</u></a></td>
+                                          <td style="text-align:left;">pixels <br> % <br> *</td>
+                                          <td style="text-align:left;"><font size="3" color="red">No se admite en HTML5 .</font> <br> Especifica el número y tamaño de las columnas en un conjunto de marcos</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_frameset_rows.asp"><u>rows</u></a></td>
+                                          <td style="text-align:left;"> pixels <br> % <br> *</td>
+                                          <td style="text-align:left;"><font size="3" color="red">No se admite en HTML5 .</font> <br> Especifica el número y el tamaño de filas de un conjunto de marcos</td>
+                                        </tr>
+
+
+                                       
+                                       
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      
                     </section>
                   </div>
                 </div>
