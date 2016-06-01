@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta sub | </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +49,14 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
-                      <li><a href="Font.html">&lt;font&gt;</a></li>
-                      <li><a href="footer.html">&lt;footer&gt;</a></li>
-                      <li><a href="Form.html">&lt;Form&gt;</a></li>
-                      <li><a href="frame.html">&lt;frame&gt;</a></li>
-                      <li><a href="frameset.html">&lt;frameset&gt;</a></li>
-                      <li><a href="h1ah6.html">&lt;h1 a h6&gt;</a></li>
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="sub.html">&lt;sub&gt;</a></li>
+                      <li><a href="summary.html">&lt;summary&gt;</a></li>
+                      <li><a href="sup.html">&lt;sup&gt;</a></li>
+                      <li><a href="table.html">&lt;table&gt;</a></li>
+                      <li><a href="tbody.html">&lt;tbody&gt;</a></li>
+                      <li><a href="td.html">&lt;td&gt;</a></li>
+                      <li><a href="textarea.html">&lt;textarea&gt;</a></li>
+
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -131,11 +131,11 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;sub&gt; Etiqueta. <small style="color: red" ></small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="#">Settings 1</a>
@@ -155,15 +155,17 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Subscript &lt;sub&gt;.Tag
+                            <small class="pull-right">Fecha: 16/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
+                          <p>El subindice de texto:</p>
                           <h5>Ejemplo</h5>
-                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
-                          </p>
+                          <pre>
+                            <code>
+  &lt;p&gt;Este texto contine &lt;sub&gt;subindice&lt;/sub&gt; de texto.&lt;/p&gt;
+                          </code> 
+                          </pre>
                         </blockquote>
                       </div>
                       <!-- /.row -->
@@ -173,9 +175,8 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>La etiqueta &lt;sub&gt; Definir el texto sub&iacute;ndice. El sub&iacute;ndice de texto aparece un personaje mitad por debajo de la l&iacute;nea normal , y algunas veces se representa en una fuente m&aacute;s peque&ntilde;a . texto sub&iacute;ndice se puede utilizar para las f&oacute;rmulas qu&iacute;micas , como H2O.</p>
+                            <p>Consejo: Utilice la etiqueta &lt; sup &gt; para definir el texto en super&iacute;ndice.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -200,7 +201,7 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
+                                          <td style="text-align:left;">&lt;sub&gt;</td>
                                           <td>Si</td>
                                           <td>Si</td>
                                           <td>Si</td>
@@ -215,22 +216,66 @@
                           </blockquote>
                         </div>
                       </div>
-
-                      <!-- /.row -->
+                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-text"></i> Los atributos globales.
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              <p>La etiqueta &lt;sub&gt; tambi&eacute;n es compatible con el<a href="http://www.w3schools.com/tags/ref_standardattributes.asp"><u> de los atributos globales en HTML.</u></a> 
+                              </p>
                           </blockquote>
                         </div>
                       </div>
+                    </div>
+                    <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;sub&gt; tambi&eacute;n es compatible con la<a href="http://www.w3schools.com/tags/ref_eventattributes.asp"><u> atributos de eventos en HTML.</u></a> 
+                              </p>
+                          </blockquote>
+                        </div>
+                      </div>
+                    
+
+                    <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Paginas relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Tutorial de HTML:<a href="http://www.w3schools.com/html/html_formatting.asp"> <u>HTML Formato de texto.</u></a> 
+                              </p>
+                              <p>Referencia HTML DOM:<a href="http://www.w3schools.com/jsref/dom_obj_sub.asp"> <u>Objeto Subíndice.</u></a> 
+                              </p>
+                          </blockquote>
+                        </div>
+                      </div>
+                    
+
+                    <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Ajustes por defecto CSS.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <h5>Ejemplo</h5>
+                              <pre>
+  sub { vertical-align: sub;<br>
+    font-size: smaller; <br>
+  }
+                              </pre>
+                          </blockquote>
+                        </div>
+                      </div>
+                   
 
                       <!-- /.row -->
                        <div class="row invoice-info">
@@ -239,8 +284,7 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>Ninguna</p>
                           </blockquote>
                         </div>
                       </div>
@@ -252,6 +296,7 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
             </div>
           </div>
         </div>
+
         <!-- /page content -->
 
         <!-- footer content -->

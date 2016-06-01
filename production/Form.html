@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta Form </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
+                     <li><a href="Figure.html">&lt;figure&gt;</a></li>
                       <li><a href="Font.html">&lt;font&gt;</a></li>
                       <li><a href="footer.html">&lt;footer&gt;</a></li>
                       <li><a href="Form.html">&lt;Form&gt;</a></li>
@@ -131,11 +131,11 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;form&gt; Tag.</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="#">Settings 1</a>
@@ -155,14 +155,23 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Form &lt;form&gt;.
+                            <small class="pull-right">Fecha: 18/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
+                          <p>Una sección de pie de página en un documento:</p>
                           <h5>Ejemplo</h5>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>
+                              <pre> 
+                            &lt;form action=&quot;demo_form.asp&quot; method=&quot;get&quot;&gt; <br>
+                               First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt; <br> 
+                               Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt; <br>
+                              &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br> 
+                           &lt;/form&gt;
+                              </pre>
+                            </code> 
+                            <p><h1><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_submit" target="_blank"><small style="color: red" >Ver Ejemplo</small></a></h1></p>
                           </p>
                         </blockquote>
                       </div>
@@ -173,9 +182,18 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>La etiqueta &lt;form&gt; se utiliza para crear un formulario <u>HTML</u> para la entrada del usuario.</p> 
+                            <p>El elemento &lt;form&gt;  puede contener uno o más de los siguientes elementos de formulario:</p> 
+                            <p><ul>
+                              <li>&lt;Input&gt;</li>
+                              <li>&lt;Textarea&gt;</li>
+                              <li>&lt;Bot&oacute;n&gt;</li>
+                              <li>&lt;Select&gt;</li>   
+                              <li> &lt;Opci&oacute;n&gt; </li>   
+                              <li>&lt;Optgroup&gt;</li> 
+                              <li>&lt;Fieldset&gt; </li>
+                              <li>&lt;Label&gt;</li>    
+                            </ul></p>
                           </blockquote>
                         </div>
                       </div>
@@ -200,12 +218,12 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
+                                          <td style="text-align:left;">&lt;Figure&gt;</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
+                                          <td>si</td>
                                         </tr>
                                         </tbody>
                                       </table>
@@ -219,16 +237,11 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
-                        </h1>
+                            <i class="fa fa-file-text"></i> Diferencias entre HTML y XHTML
                         <div class="col-sm-12 invoice-col">
-                          <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
-                          </blockquote>
+                          <blockquote>   
+                              <p>HTML5 ha añadido dos nuevos atributos: autocompletar y novalidate, y se retira el atributo aceptar.</p>  
+                              </blockquote>
                         </div>
                       </div>
 
@@ -239,11 +252,126 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                            <p>En XHTML, el atributo de nombre está en desuso. Utilice el atributo id mundial en su lugar.</p>
                           </blockquote>
                         </div>
                       </div>
+
+                    
+
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Atributo</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Valor</th>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Descripcion</th>                                            
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_accept.asp"><u>accept</u></a></td>
+                                          <td style="text-align:left;">file_type</td>
+                                          <td style="text-align:left;"><font size="3" color="red">No se admite en HTML5 .</font> <br> Especifica una lista separada por comas de los tipos de archivos que acepta el servidor ( que se pueden enviar a través de la carga de archivos )</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_accept_charset.asp"><u>accept-charset</u></a></td>
+                                          <td style="text-align:left;">character_set</td>
+                                          <td style="text-align:left;">Especifica la codificación de caracteres que han de ser utilizados para el envío del formulario</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_action.asp"><u>action</u></a></td>
+                                          <td style="text-align:left;">   URL</td>
+                                          <td style="text-align:left;">Especifica dónde enviar el formulario - datos cuando se envía un formulario </td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_autocomplete.asp"><u>autocomplete</u></a></td>
+                                          <td style="text-align:left;"> on <br> off</td>
+                                          <td style="text-align:left;">Especifica si una forma de autocompletar debe tener encendido o apagado</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_enctype.asp"><u>enctype</u></a></td>
+                                          <td style="text-align:left;">   application/x-www-form-urlencoded <br> multipart/form-data <br> text/plain</td>
+                                          <td style="text-align:left;">Especifica cómo los datos del formulario - deben ser codificados al presentar al servidor (sólo para method = "post " ) </td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_method.asp"><u>method</u></a></td>
+                                          <td style="text-align:left;"> get <br> post</td>
+                                          <td style="text-align:left;">Especifica el método HTTP para utilizar al enviar form-data </td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_name.asp"><u>name</u></a></td>
+                                          <td style="text-align:left;"> text</td>
+                                          <td style="text-align:left;">Especifica el nombre de un formulario </td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_novalidate.asp"><u>novalidate</u></a></td>
+                                          <td style="text-align:left;">novalidate</td>
+                                          <td style="text-align:left;">Especifica que el formulario no debe ser validada cuando se presente</td>
+                                        </tr>
+
+
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_form_target.asp"><u>target</u></a></td>
+                                          <td style="text-align:left;">_blank <br> _self <br> _parent <br> _top</td>
+                                          <td style="text-align:left;">Especifica dónde se debe mostrar la respuesta que se recibe después de enviar el formulario</td>
+                                        </tr>
+
+
+                                    
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Los atributos globales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>   
+                              <p>La etiqueta &lt;form&gt; también es compatible con el <a href="http://www.w3schools.com/tags/ref_standardattributes.asp" target="_blank"><u>de los atributos globales en HTML .</u></a> </p>                                                          
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>   
+                              <p>La etiqueta &lt;form&gt; también apoya la</p>  
+                              <p><a href="http://www.w3schools.com/tags/ref_eventattributes.asp" target="_blank"><u>atributos de eventos en HTML .</u></a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      
+
 
                     </section>
                   </div>

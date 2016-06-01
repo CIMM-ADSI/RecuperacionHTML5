@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta header | </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +49,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
-                      <li><a href="Font.html">&lt;font&gt;</a></li>
-                      <li><a href="footer.html">&lt;footer&gt;</a></li>
-                      <li><a href="Form.html">&lt;Form&gt;</a></li>
-                      <li><a href="frame.html">&lt;frame&gt;</a></li>
-                      <li><a href="frameset.html">&lt;frameset&gt;</a></li>
-                      <li><a href="h1ah6.html">&lt;h1 a h6&gt;</a></li>
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="tt_tag.html">&lt;header&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -95,7 +88,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="https://achievement-images.teamtreehouse.com/HTML.png" alt="">Mayra Rincon
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -131,11 +124,11 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;header&gt; Etiqueta. <small style="color: red" > </small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="#">Settings 1</a>
@@ -155,17 +148,31 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Cabecera &lt;header&gt;.
+                            <small class="pull-right">Fecha: 17/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
+                          <p>Una cabecera para un &lt;article&gt;:</p>
                           <h5>Ejemplo</h5>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code>
+                            &lt;article&gt;<br/>
+                             &lt;header&gt;<br/>
+                             &nbsp;
+                              &lt;h1&gt;Most important heading here&lt;/h1&gt;<br/>
+                              &nbsp;
+                              &lt;h3&gt;Less important heading here&lt;/h3&gt;<br/>
+                              &nbsp;
+                              &lt;p&gt;Less important heading here&lt;/p&gt;<br/>
+                            &lt;/header&gt;<br/>
+                            &nbsp;
+                            &lt;p&gt;Lorem Ipsum dolor set amet...&lt;/p&gt;<br/>
+                            &lt;/article&gt;</code> 
                           </p>
+                          <h4><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_header">Inténtalo tú mismo</a></h4>
+
                         </blockquote>
-                      </div>
+                                              </div>
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
@@ -173,9 +180,16 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>El elemento &lt;header&gt; representa un contenedor para el contenido de introducción o un conjunto de enlaces de navegación.</p> 
+                            <p>Un elemento &lt;header&gt; normalmente contiene:</p>
+                              <ul>
+                              	<li>uno o más elementos de encabezado (&lt;h1&gt; - &lt;h6&gt;)</li>
+                              	<li>logotipo o icono</li>
+                              	<li>información de autoría</li>
+                              </ul>
+                            <p>Se pueden encontrar varios elementos &lt;header&gt; en un solo documento.</p>
+                            <p><b>Nota:</b>La etiqueta &lt;header&gt; no se puede colocar dentro de un &lt;footer&gt;, &lt;address&gt; u otro elemento &lt;header&gt;.</p>
+                           
                           </blockquote>
                         </div>
                       </div>
@@ -200,12 +214,12 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
-                                          <td>Si</td>
+                                          <td style="text-align:left;">&lt;header&gt;</td>
+                                          <td>6.0</td>
+                                          <td>9.0</td>
+                                          <td>4.0</td>
+                                          <td>5.0</td>
+                                          <td>11.1</td>
                                         </tr>
                                         </tbody>
                                       </table>
@@ -217,7 +231,7 @@
                       </div>
 
                       <!-- /.row -->
-                       <div class="row invoice-info">
+                    <!--   <div class="row invoice-info">
                         <h1>
                             <i class="fa fa-file-text"></i> Notas de compatibilidad.
                         </h1>
@@ -230,7 +244,7 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                               en un documento.</p>
                           </blockquote>
                         </div>
-                      </div>
+                      </div> -->
 
                       <!-- /.row -->
                        <div class="row invoice-info">
@@ -239,8 +253,60 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>La etiqueta &lt;header&gt; es nueva en HTML5.</p>
+                             
+                        </div>
+                      </div>
+             <!-- /.Row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Atributos Globales
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;header&gt; es compatible con los <a href="http://www.w3schools.com/tags/ref_standardattributes.asp">atributos globales en HTML.</a></p> 
+                          </blockquote>
+                        </div>
+                      </div>
+
+
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Atributos de eventos
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;header&gt; es compatible con los <a href="http://www.w3schools.com/tags/ref_eventattributes.asp">atributos de eventos en HTML.</a></p> 
+                          </blockquote>
+                        </div>
+                      </div>
+
+
+                        <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Páginas relacionadas
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                            Referencia HTML DOM: <a href="http://www.w3schools.com/jsref/dom_obj_header.asp">Header Object</a> <br/>
+                          </blockquote>
+                        </div>
+                      </div>
+             
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Ajustes por defecto CSS
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              La mayoría de los navegadores mostrarán el elemento &lt;header&gt; con los siguientes valores predeterminados:
+                             
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>header {  <br/>
+                                display:block; <br/>
+                            }         
+                            </code>  
+                          </p>
                           </blockquote>
                         </div>
                       </div>

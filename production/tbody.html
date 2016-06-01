@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta tbody | </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +49,13 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
-                      <li><a href="Font.html">&lt;font&gt;</a></li>
-                      <li><a href="footer.html">&lt;footer&gt;</a></li>
-                      <li><a href="Form.html">&lt;Form&gt;</a></li>
-                      <li><a href="frame.html">&lt;frame&gt;</a></li>
-                      <li><a href="frameset.html">&lt;frameset&gt;</a></li>
-                      <li><a href="h1ah6.html">&lt;h1 a h6&gt;</a></li>
-                      <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
+                      <li><a href="sub.html">&lt;sub&gt;</a></li>
+                      <li><a href="summary.html">&lt;summary&gt;</a></li>
+                      <li><a href="sup.html">&lt;sup&gt;</a></li>
+                      <li><a href="table.html">&lt;table&gt;</a></li>
+                      <li><a href="tbody.html">&lt;tbody&gt;</a></li>
+                      <li><a href="td.html">&lt;td&gt;</a></li>
+                      <li><a href="textarea.html">&lt;textarea&gt;</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
@@ -131,11 +130,11 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;tbody&gt; Etiqueta. <small style="color: red" ></small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="#">Settings 1</a>
@@ -155,27 +154,55 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
+                            <i class="fa fa-code"></i> HTML &lt;tbody&gt; Tag.
                             <small class="pull-right">Fecha: 12/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
                           <h5>Ejemplo</h5>
+                          <p>Una tabla HTML con un &lt;tfoot&gt;, y un elemento &lt;thead&gt; &lt;tbody&gt;:</p>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
+                            <code><pre>
+  &lt;table&gt;<br>
+      &lt;thead&gt;<br> 
+      &lt;tr&gt;<br>
+          &lt;th&gt;Month&lt;/th&gt;<br>
+          &lt;th&gt;Savings&lt;/th&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/thead&gt;<br>
+      &lt;tfoot&gt;<br>
+      &lt;tr&gt;<br>
+          &lt;td&gt;Sum&lt;/td&gt;<br>
+          &lt;td&gt;$180&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;/tfoot&gt;<br>
+      &lt;tbody&gt;<br>
+      &lt;tr&gt;<br>
+          &lt;td&gt;January&lt;/td&gt;<br>
+          &lt;td&gt;$100&lt;/td&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+          &lt;td&gt;February&lt;/td&gt;<br>
+          &lt;td&gt;$80&lt;/td&gt;<br>
+      &lt;/tr&gt;<br> 
+      &lt;/tbody&gt;<br>
+  &lt;/table&gt;
+                                </pre></code> 
                           </p>
+                          <form  name="myform" action="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tbody" method="POST">
+                            <input type="submit" value="Intentalo tu mismo"> 
                         </blockquote>
                       </div>
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-home"></i> Definición y Uso.
+                            <i class="fa fa-home"></i> Definición y Uso
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>La &lt;tbody&gt; etiqueta se utiliza para agrupar el contenido del cuerpo en una tabla HTML.</p> 
+                              <p>La &lt;tbody&gt; se utiliza en conjunci&oacute;n con los &lt;culata en T&gt; y &lt;&gt; tfoot elementos para especificar cada parte de una tabla (cuerpo, encabezado, pie de p&aacute;gina).</p>
+                              <p>Los navegadores pueden utilizar estos elementos para permitir el desplazamiento del cuerpo de la tabla de forma independiente de la cabecera y el pie. Adem&aacute;s, cuando se imprime una gran tabla que abarca varias p&aacute;ginas, estos elementos pueden permitir a la cabecera de la tabla y el pie de p&aacute;gina que se imprimir&aacute; en la parte superior e inferior de cada p&aacute;gina.</p> 
+                              <p>La &lt;tbody&gt; etiqueta debe ser utilizado en el siguiente contexto: Como hijo de un elemento &lt;table&gt;, despu&eacute;s de cualquier &lt;caption&gt;, &lt;colgroup&gt; y &lt;thead&gt; elementos.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -183,7 +210,7 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-globe"></i> Soporte de Navegadores.
+                            <i class="fa fa-globe"></i> Soporte para el navegador
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
@@ -200,7 +227,7 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
+                                          <td style="text-align:left;">&lt;tbody&gt;</td>
                                           <td>Si</td>
                                           <td>Si</td>
                                           <td>Si</td>
@@ -219,15 +246,12 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-text"></i> Notas de y sugerencias
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              <p><b>Nota:</b> La &lt;tbody&gt; debe tener una o m&aacute;s etiquetas &lt;tr&gt; interior.</p>
+                              <p><b>Consejo:</b> La &lt;culata en T&gt;, &lt;tbody&gt; y &lt;&gt; tfoot elementos que no modifiquen la composici&oacute;n de la tabla por defecto. Sin embargo, puede utilizar CSS para el estilo de estos elementos.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -235,12 +259,99 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>Ninguno de los atributos HTML 4.01 son compatibles con HTML5.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Atributos
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;"><b>Atributo</b></th>
+                                          <th style="width:20%;font-size:16px;text-align:left;"><b>Valor</b></th>
+                                          <th style="width:60%;font-size:16px;text-align:left;"><b>Descripcion</b></th>              
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_tbody_align.asp"><u>aling</u></a></td>
+                                          <td style="text-align:left;">right<br>left<br> center<br>justify<br>char</td>
+                                          <td style="text-align:left;"><font color="red">No soportado en HTML5</font><br>
+                                            Alinea el contenido dentro del elemento &lt; tbody &gt;</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_tbody_char.asp"><u>char</u></a></td>
+                                          <td style="text-align:left;">character</td>
+                                          <td style="text-align:left;"><font color="red">No soportado en HTML5</font><br>
+                                            Alinea el contenido dentro del elemento &lt; tbody &gt; a un personaje</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_tbody_charoff.asp"><u>charoff</u></a></td>
+                                          <td style="text-align:left;">number</td>
+                                          <td style="text-align:left;"><font color="red">No soportado en HTML5</font><br>
+                                            Establece el número de caracteres del contenido dentro del elemento &lt; tbody &gt; se alineará desde el carácter especificado por el atributo Char</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;"><a href="http://www.w3schools.com/tags/att_tbody_valign.asp"><u>valing</u></a></td>
+                                          <td style="text-align:left;">top<br>middle<br>botton<br>baseline</td>
+                                          <td style="text-align:left;"><font color="red">No soportado en HTML5</font><br>
+                                            Vertical : alinea el contenido dentro del elemento &lt; tbody &gt;</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Los atributos globales
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;tbody&gt; tambi&eacute;n es compatible con el<a href="http://www.w3schools.com/tags/ref_standardattributes.asp"> <u>de los atributos globales en HTML.</u></a> </p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Atributos de eventos
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;tbody&gt; tambi&eacute;n es compatible con la<a href="http://www.w3schools.com/tags/ref_eventattributes.asp"> <u>atributos de eventos en HTML.</u></a> 
+                              </p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Ajustes por defecto CSS
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La mayoría de los navegadores mostrarán el elemento &lt;tbody&gt; con los siguientes valores predeterminados:</p>
+  <pre>tbody { <br>
+      display: table-row-group;<br>
+      vertical-align: middle;<br> 
+      border-color: inherit;<br> 
+  }</pre>
+                              </p>
                           </blockquote>
                         </div>
                       </div>

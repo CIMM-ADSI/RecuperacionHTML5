@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Etiqueta tt | </title>
+    <title>Etiqueta rt | </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,13 +49,6 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="Figure.html">&lt;figure&gt;</a></li>
-                      <li><a href="Font.html">&lt;font&gt;</a></li>
-                      <li><a href="footer.html">&lt;footer&gt;</a></li>
-                      <li><a href="Form.html">&lt;Form&gt;</a></li>
-                      <li><a href="frame.html">&lt;frame&gt;</a></li>
-                      <li><a href="frameset.html">&lt;frameset&gt;</a></li>
-                      <li><a href="h1ah6.html">&lt;h1 a h6&gt;</a></li>
                       <li><a href="tt_tag.html">&lt;tt&gt;</a></li>
                     </ul>
                   </li>
@@ -131,16 +124,16 @@
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>HTML &lt;tt&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <h2>HTML &lt;rt&gt; Etiqueta. <small style="color: red" > Es soportada en HTML5</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      <li class="dropdown"> 
+                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                         <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
+                          <li><a href="#"> Settings 1</a>
                           </li>
-                          <li><a href="#">Settings 2</a>
+                          <li><a href="#"> Settings 2</a>
                           </li>
                         </ul>
                       </li>
@@ -155,15 +148,24 @@
                       <!-- info row -->
                       <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-code"></i> Teletipo &lt;tt&gt;.
-                            <small class="pull-right">Fecha: 12/05/2016</small>
+                            <i class="fa fa-code"></i> Explicacion &lt;rt&gt;.
+                            <small class="pull-right">Fecha: 30/05/2016</small>
                         </h1>
                         <blockquote>
-                          <p>Define un texto en Teletipo:</p>
-                          <h5>Ejemplo</h5>
+                          <p> Define un explicacion de los caracteres :</p>
+                          <h5> Ejemplo </h5>
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            <code>&lt;p&gt; &lt;tt&gt; Texto en Teletipo &lt;/tt&gt;&lt;/p&gt;</code> 
-                          </p>
+                            <code> &lt;DOCTYPE html&gt; </br>
+                          &lt;html&gt; </br>
+                          &lt;body&gt;</br>
+                          &lt;ruby&gt;</br>
+                          漢 &lt;rt&gt; ㄏㄢˋ &lt;/rt&gt;</br>
+                          &lt;/ruby&gt;</br>
+                          &lt;/body&gt;</br>
+                          &lt;/html&gt;</br>  
+                          </code>
+                             </p>
+                             <a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ruby">Intentalo tu mismo </a>
                         </blockquote>
                       </div>
                       <!-- /.row -->
@@ -173,9 +175,10 @@
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                            <p>La etiqueta &lt;tt&gt; no es compatible con HTML5.</p> 
-                            <p>Si &lt;tt&gt; se utiliz&oacute; para marcar la entrada de teclado, considere el elemento &lt;kbd&gt;; para las variables, considere el elemento &lt;var&gt;; para el c&oacute;digo de computadora, considere el elemento &lt;code&gt;; y para la salida de la computadora, tenga en cuenta el elemento &lt;samp&gt;, o el uso de CSS en su lugar.</p>
-                            <p>La etiqueta &lt;tt&gt; define el texto de teletipo.</p>
+                            <p>La etiqueta &lt;rt&gt; Es compatible con HTML5.</p> 
+                            <p>Si &lt;rt&gt; se utiliz&oacute; para &lt;tr&gt; definir una explicación o pronunciación de los caracteres (por la tipografía de Asia Oriental) en una anotación de rubí; Utilice el &lt;tr&gt; etiqueta junto con los  <a href="http://www.w3schools.com/tags/tag_ruby.asp">&lt;ruby&gt;</a>  y los <a href="http://www.w3schools.com/tags/tag_rp.asp">&lt;rp&gt;</a>  etiquetas: El elemento &lt;ruby&gt; consiste en uno o más caracteres que necesita una explicación / pronunciación, y un &lt;tr&gt;
+                         elemento que da esa información.</p>
+                            <p>La etiqueta &lt;rt&gt; define ls explicacion de un caracter.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -200,7 +203,7 @@
                                           <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
                                         </tr>
                                         <tr>
-                                          <td style="text-align:left;">&lt;tt&gt;</td>
+                                          <td style="text-align:left;">&lt;rt&gt;</td>
                                           <td>Si</td>
                                           <td>Si</td>
                                           <td>Si</td>
@@ -219,15 +222,23 @@
                       <!-- /.row -->
                        <div class="row invoice-info">
                         <h1>
-                            <i class="fa fa-file-text"></i> Notas de compatibilidad.
+                            <i class="fa fa-file-text"></i> Atributos Globales 
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p><a href="http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_tt_css" target="_blank">Ejemplo CSS: 
-definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
-                              <p>En nuestro tutorial CSS se pueden encontrar más detalles sobre cómo especificar el <a href="http://www.w3schools.com/css/css_font.asp">tipo de fuente</a> 
-                              en un documento.</p>
+                              
+                              <p> La etiqueta &lt;rt&gt; también es compatible con  <a href="http://www.w3schools.com/tags/ref_standardattributes.asp" target="_blank">  los atributos globales en HTML </a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+                           <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Atributos de Eventos
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              
+                              <p> La etiqueta &lt;rt&gt; La etiqueta &lt;rt&gt; también apoya  <a href="http://www.w3schools.com/tags/ref_eventattributes.asp" target="_blank">  los atributos de eventos </a></p>
                           </blockquote>
                         </div>
                       </div>
@@ -239,8 +250,16 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
                         </h1>
                         <div class="col-sm-12 invoice-col">
                           <blockquote>
-                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
-                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                              <p>Sintaxis CSS por defecto: &lt;&gt;</p>
+                               <h5> Ejemplo </h5>
+                              <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                              <code>
+                                rt { <br/>
+                                line-height: normal;<br/>
+                                  } <br/>
+                              </code>
+                              </p>
+                              <p>La etiqueta &lt;rt&gt; Es soportada en HTML5.</p>
                           </blockquote>
                         </div>
                       </div>
@@ -278,3 +297,4 @@ definir una fuente teletipo/monospace desde un elemento &lt;p&gt;</a></p>
     <script src="js/custom.js"></script>
   </body>
 </html>
+
