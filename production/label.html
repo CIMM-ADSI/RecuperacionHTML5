@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Etiqueta label | </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Documenta!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Bienvenidos,</span>
+                <h2>Aprendices</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>Categoria</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tt_tag.html">&lt;label&gt;</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-desktop"></i> PHP <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-users"></i> Desarrolladores <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">HTML</a></li>
+                      <li><a href="media_gallery.html">CSS</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;">  Profile</a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Help</a>
+                    </li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+
+          <div class="">
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>HTML &lt;label&gt; Etiqueta. </h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <section class="content invoice">
+                      <!-- info row -->
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-code"></i> Botones &lt;label&gt;.
+                            <small class="pull-right">Fecha: 12/05/2016</small>
+                        </h1>
+                        <blockquote>
+                          <p>Tres botones de radio con las etiquetas:</p>
+                          <h5>Ejemplo</h5>
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>&lt;form action=&quot;demo_form.asp&quot;&gt;<br> &lt;label for=&quot;male&quot;&gt;Male&lt;/label&gt;<br> &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot; value=&quot;male&quot;&gt;&lt;br&gt; <br>&lt;label for=&quot;female&quot;&gt;Female&lt;/label&gt; <br>&lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot; value=&quot;female&quot;&gt;&lt;br&gt;<br> &lt;label for=&quot;other&quot;&gt;Other&lt;/label&gt;<br> &lt;input type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;other&quot; value=&quot;other&quot;&gt;&lt;br&gt;<br>&lt;br&gt; &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br> &lt;/form&gt;</code> 
+                          </p>
+                        </blockquote>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-home"></i> Definición y Uso.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                            <p>La etiqueta &lt;label&gt;define una etiqueta para un elemento &lt;imput&gt;.</p> 
+                            <p>El elemento &lt;label&gt; no hace como algo especial para el usuario. Sin embargo, proporciona una mejora usabilidad para los usuarios de ratón, ya que si el usuario hace clic en el texto dentro del elemento &lt;label&gt;, se activa o desactiva el control.  </p>
+                            <p>El atributo de la etiqueta &lt;label&gt; debe ser igual al atributo id del elemento relacionado para unirlas.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Soporte de Navegadores.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Elemento</th>
+                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th>
+                                          <th style="width:31px; height: 30px;" class="bsEdge" title="Internet Explorer / Edge"></th>
+                                          <th style="width:31px; height: 30px;" class="bsFirefox" title="Firefox"></th>
+                                          <th style="width:31px; height: 30px;" class="bsSafari" title="Safari"></th>
+                                          <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;">&lt;label&gt;</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Notas y sugerencias.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p><b>Consejo:</b> Un marcador se puede unir a un elemento ya sea usando el atributo "for", o colocando el elemento dentro del elemento &lt;label&gt;.</p>
+                              
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>El atributo "forma" es nuevo en HTML5.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <h3> atributos</h3>
+                      <h4> <i class="html5logo">&nbsp; &nbsp; &nbsp;= Nuevo en HTML5</h4>
+                        <div class="row invoice-info">
+                        <div class="row">
+                       <div class="col-xs-12 table">
+                         <table class="table table-striped">
+                           <thead>
+                             <tr>
+                               <th >Atributo</th>
+                               <th>Valor</th>
+                               <th style="width: 59%">Descripción</th>
+                               
+                             </tr>
+                           </thead>
+                           <tbody>
+                             <tr>
+                               
+                               <td> <a href=http://www.w3schools.com/tags/att_label_for.asp> <b><u>for</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;element_id</td>
+                               <td> Especifica qué elemento forma una etiqueta está obligado a
+                               </td>
+                            </tr>
+                            <tr>
+                               
+                               <td> <a href=http://www.w3schools.com/tags/att_label_for.asp> <b><u>form</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;form_id</td>
+                               <td> Especifica una o más formas la etiqueta pertenece a
+                               </td>
+                            </tr>
+                            </tbody>
+                            </table>
+                            <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-bell-o"></i> Los atributos globales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta  &lt;label&gt; también es compatible con el de los <u><a href=http://www.w3schools.com/tags/ref_standardattributes.asp>atributos globales en HTML .</a></u></p>
+                          </blockquote>
+                          <div class="row invoice-info">
+                        <h1>
+                        <i class="fa fa-bookmark-o"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;label&gt;también es compatible con la <u><a href=http://www.w3schools.com/tags/ref_eventattributes.asp>atributos de eventos en HTML .</a></u></p>
+                                                  
+                          </blockquote>
+                          <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-plus-square-o"></i>Páginas relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Referencia HTML DOM: <u><a href=http://www.w3schools.com/tags/tag_label.asp>objeto de etiqueta</a></u></p>
+                          </blockquote>
+                          <div class="row invoice-info">
+                        <h1> <i class="fa fa-cogs"></i>Ajustes por defecto CSS.</h1>
+                        <h2>La mayoría de los navegadores mostrarán el elemento &lt;label&gt; con los siguientes valores predeterminados:</h2>
+                          </div>
+                          <blockquote>
+
+                          <h5>Ejemplo</h5>
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>label {  <br> cursor: default;<br>}</code> 
+                          </p>
+                        </blockquote>
+
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

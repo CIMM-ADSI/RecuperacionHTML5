@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Etiqueta Input | </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Documenta!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Bienvenidos,</span>
+                <h2>Aprendices</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>Categoria</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tt_tag.html">&lt;Input&gt;</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-desktop"></i> PHP <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-users"></i> Desarrolladores <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">HTML</a></li>
+                      <li><a href="media_gallery.html">CSS</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;">  Profile</a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Help</a>
+                    </li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+
+          <div class="">
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>HTML &lt;Input&gt; Etiqueta. </h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <section class="content invoice">
+                      <!-- info row -->
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-code"></i> Formulario &lt;input&gt;.
+                            <small class="pull-right">Fecha: 12/05/2016</small>
+                        </h1>
+                        <blockquote>
+                          <p>Un formulario HTML con tres campos de entrada; dos campos de texto y un botón de envío:</p>
+                          <h5>Ejemplo</h5>
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>&lt;form action=&quot;demo_form.asp&quot;&gt;<br> First name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;&lt;br&gt;<br> Last name: &lt;input type=&quot;text&quot; name=&quot;lname&quot;&gt;&lt;br&gt;<br> &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br> &lt;/form&gt;</code> 
+                          </p>
+                        </blockquote>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-home"></i> Definición y Uso.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                            <p>La etiqueta &lt;input&gt; especifica un campo de entrada donde el usuario puede introducir datos.</p> 
+                            <p>&lt;Input&gt; se utilizan dentro de un elemento &lt;form&gt; para declarar controles de entrada que permiten a los usuarios a los datos de entrada.</p>
+                            <p>Un campo de entrada puede variar de muchas maneras, dependiendo del tipo de atributo.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Soporte de Navegadores.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Elemento</th>
+                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th>
+                                          <th style="width:31px; height: 30px;" class="bsEdge" title="Internet Explorer / Edge"></th>
+                                          <th style="width:31px; height: 30px;" class="bsFirefox" title="Firefox"></th>
+                                          <th style="width:31px; height: 30px;" class="bsSafari" title="Safari"></th>
+                                          <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;">&lt;input&gt;</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-text"></i> Notas y sugerencias
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p><b>Nota:</b>  El elemento &lt;input&gt; está vacía, contiene atributos solamente.</p>
+                              <p><b>Consejo:</b>Utilice la <a href="http://www.w3schools.com/tags/tag_label.asp"> <b><u>etiqueta &lt;label&gt;</u></b> </a>elemento para definir etiquetas para los elementos &lt;input&gt;.</p>
+
+                            </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>El atributo &quot; align&quot; no es compatible con HTML5.</p>
+                              <p>En HTML5, la etiqueta &lt;input&gt; tiene varios atributos nuevos, y el atributo type tiene varios valores nuevos.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML  y XHTML.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>En HTML, la etiqueta &lt;input&gt; no tiene ninguna etiqueta final.</p>
+                              <p>En XHTML, la etiqueta &lt;input&gt; debe estar debidamente cerrado, como este &lt;input /&gt;.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <h3> atributos</h3>
+                      <h5> <i class="html5logo">&nbsp; &nbsp; &nbsp; = Nuevo en HTML5.</h5>
+						<div class="row invoice-info">
+                        <div class="row">
+                       <div class="col-xs-12 table">
+                         <table class="table table-striped">
+                           <thead>
+                             <tr>
+                               <th >Atributo</th>
+                               <th>Valor</th>
+                               <th style="width: 59%">Descripción</th>
+                               
+                             </tr>
+                           </thead>
+                           <tbody>
+
+
+                               
+                               <td> <a href=http://www.w3schools.com/tags/att_input_accept.asp>  <b><u>accept</u></b></a></td>
+                               <td> &nbsp; &nbsp; &nbsp;file_extension<br> &nbsp; &nbsp; &nbsp;audio/* 
+                               <br> &nbsp; &nbsp; &nbsp;video/*
+                               <br>  &nbsp; &nbsp; &nbsp;image/*
+                               <br>  &nbsp; &nbsp; &nbsp;media_type</td>
+                               <td>Especifica los tipos de archivos que acepta el servidor (sólo para type = " archivo" )
+                               </td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_align.asp><b><u>aling</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;left
+                										<br>
+																	&nbsp; &nbsp; &nbsp;right
+																	<br>
+																	&nbsp; &nbsp; &nbsp;top
+																	<br>
+																	&nbsp; &nbsp; &nbsp;middle
+																	<br>
+																	&nbsp; &nbsp; &nbsp;bottom</td>
+                             <td>No se admite en HTML5 .
+                             <br>
+                             Especifica la alineación de una entrada de imagen (sólo para el tipo = "imagen" )</td>
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_alt.asp><b><u>alt</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;text</td>
+                             <td>Especifica un texto alternativo para las imágenes (sólo para type = "imagen" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_autocomplete.asp><b><u>autocomplete</u></b></a></td>
+                                    <td> <i class="html5logo">&nbsp; &nbsp; &nbsp;on <br>  &nbsp; &nbsp;   off
+                               								 </td>
+                             <td>Especifica si un elemento &lt;input&gt;  debería haber permitido autocompletar</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_autofocus.asp><b><u>autofocus</u></b></a></td>
+                               <td>  <i class="html5logo">&nbsp; &nbsp; autofocus</td>
+                             <td>Especifica que un elemento &lt;input &gt; debe obtener automáticamente el foco cuando se carga la página</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_align.asp><b><u>checked</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;checked</td>
+                             <td>Especifica que un elemento &lt;input&gt; debe ser pre - seleccionado cuando se carga la página (por type = " casilla de verificación " o type = " radio" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_dirname.asp><b><u>dirname</u></b></a></td>
+                               <td>  <i class="html5logo">&nbsp; &nbsp; &nbsp;inputname.dir</td>
+                             <td>Especifica que se presentará la dirección del texto</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_disabled.asp><b><u>disabled</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;disabled</td>
+                             <td>Especifica que un elemento &lt;input&gt; debe ser desactivado</td>
+                               
+                             </tr>
+                              <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_align.asp><b><u>form</u></b></a></td>
+                               <td> <i class="html5logo">&nbsp; &nbsp; &nbsp; form_id</td>
+                             <td>Especifica una o más formas los elementos &lt;input&gt; elemento pertenece a</td>
+                               
+                             </tr>
+                              <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_formaction.asp><b><u>formaction</u></b></a></td>
+                               <td> <i class="html5logo">&nbsp; &nbsp; &nbsp; URL</td>
+                             <td>Especifica la dirección URL del archivo que va a procesar el control de entrada cuando se envía el formulario (por type = "submit " y escriba = "imagen" )</td>
+                               
+                             </tr>
+                              <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_formenctype.asp><b><u>formenctype</u></b></a></td>
+                               <td>  &nbsp;&nbsp;&nbsp;&nbsp;application/x-www-form-urlencoded<br>
+									<i class="html5logo">&nbsp; &nbsp; &nbsp;multipart/form-data
+									<br>&nbsp; &nbsp; &nbsp;text/plain</td>
+                             <td>Especifica cómo se deben codificar los datos del formulario - al presentar al servidor (por type = "submit " y tipo = "imagen" )</td>
+                               
+                             </tr>
+                              <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_formmethod.asp><b><u>formmethod</u></b></a></td>
+                               <td> <i class="html5logo">&nbsp; &nbsp; &nbsp;get<br>&nbsp; &nbsp; &nbsp;post</td>
+                             <td>Define el método HTTP para enviar datos a la URL de acción (por type = "submit " y escriba = "imagen" )</td>
+                               
+                             </tr><tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_formnovalidate.asp><b><u>formnovalidate</u></b></a></td>
+                               <td> &nbsp; &nbsp; &nbsp; formnovalidate</td>
+                             <td>Define los elementos de formulario que no deben ser validados cuando se presente</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_formtarget.asp><b><u>formtarget</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;_blank<br>&nbsp; &nbsp; &nbsp;_self<br><i class="html5logo">&nbsp; &nbsp; &nbsp;_parent<br>&nbsp; &nbsp; &nbsp;_top<br>&nbsp; &nbsp; &nbsp; framename</td>
+                             <td>Especifica dónde se debe mostrar la respuesta que se recibe después de enviar el formulario (por type = "submit " y escriba = "imagen" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_height.asp><b><u>height</u></b></a></td>
+                               <td>  <i class="html5logo">&nbsp; &nbsp; &nbsp; pixels</td>
+                             <td>Especifica la altura de un elemento &lt;input&gt; (sólo para el tipo = "imagen" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_list.asp><b><u>list</u></b></a></td>
+                               <td>  <i class="html5logo">&nbsp; &nbsp; &nbsp;dalist_id</td>
+                             <td>Se refiere a un elemento < lista de datos > que contiene opciones predefinidas para un elemento &lt;input&gt;</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_max.asp><b><u>max</u></b></a></td>
+                               <td>  <i class="html5logo">&nbsp; &nbsp; &nbsp;number<br>&nbsp; &nbsp; &nbsp;data</td>
+                             <td>Especifica el valor máximo para un elemento &lt;input&gt;</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_multiple.asp><b><u>multiple</u></b></a></td>
+                               <td> <i class="html5logo">&nbsp; &nbsp; &nbsp;multiple</td>
+                             <td>Specifies that a user can enter more than one value in an &lt;input&gt; element</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_name.asp><b><u>name</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;text</td>
+                             <td>Especifica el nombre de un elemento &lt;input&gt;</td>
+                               
+                             </tr>
+                              <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_pattern.asp><b><u>pattern</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;regexp</td>
+                             <td>Especifica una expresión regular que un valor &lt;input&gt; de elemento se compara</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_placeholder.asp><b><u>placeholder</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;text</td>
+                             <td>Especifica un breve atisbo que describe el valor esperado de un elemento &lt;input&gt;</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_readonly.asp><b><u>readonly</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;readonly</td>
+                             <td>Especifica que un campo de entrada es de sólo lectura</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_required.asp><b><u>required</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;required</td>
+                             <td>Especifica que un campo de entrada debe ser completado antes de enviar el formulario</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_size.asp><b><u>size</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;number</td>
+                             <td>Especifica la dirección URL de la imagen que se utiliza como un botón de envío (sólo para el tipo = "imagen" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_src.asp><b><u>src</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;URL</td>
+                             <td>Especifica la dirección URL de la imagen que se utiliza como un botón de envío (sólo para el tipo = "imagen" )</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_step.asp><b><u>step</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;number</td>
+                             <td>Especifica los intervalos de números legales para un campo de entrada</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_type.asp><b><u>type</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;button<br>
+                               &nbsp; &nbsp; &nbsp;checkbox<br>
+                               &nbsp; &nbsp; &nbsp;color<br>
+                               &nbsp; &nbsp; &nbsp;date<br>
+                               &nbsp; &nbsp; &nbsp;datetime<br>
+                               &nbsp; &nbsp; &nbsp;datetime-local<br>
+                               &nbsp; &nbsp; &nbsp;email<br>
+                               &nbsp; &nbsp; &nbsp;file<br>
+                               &nbsp; &nbsp; &nbsp;hidden<br>
+                               &nbsp; &nbsp; &nbsp;image<br>
+                               &nbsp; &nbsp; &nbsp;month<br>
+                               &nbsp; &nbsp; &nbsp;number<br>
+                               &nbsp; &nbsp; &nbsp;password<br>
+                               &nbsp; &nbsp; &nbsp;radio<br>
+                               &nbsp; &nbsp; &nbsp;range<br>
+                               &nbsp; &nbsp; &nbsp;reset<br>
+                               &nbsp; &nbsp; &nbsp;search<br>
+                               &nbsp; &nbsp; &nbsp;submit<br>
+                               &nbsp; &nbsp; &nbsp;tel<br>
+                               &nbsp; &nbsp; &nbsp;text<br>
+                               &nbsp; &nbsp; &nbsp;time<br>
+                               &nbsp; &nbsp; &nbsp;url<br>
+                               &nbsp; &nbsp; &nbsp;week</td>
+                             <td>Especifica el tipo de elemento &lt;input&gt; para visualizar</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_value.asp><b><u>value</u></b></a></td>
+                               <td>&nbsp; &nbsp; &nbsp;text</td>
+                             <td>Especifica el valor de un elemento &lt;input&gt;</td>
+                               
+                             </tr>
+                             <tr>
+                               <td><a href=http://www.w3schools.com/tags/att_input_width.asp><b><u>width</u></b></a></td>
+                               <td><i class="html5logo">&nbsp; &nbsp; &nbsp;pixels</td>
+                             <td>Especifica el ancho de un elemento &lt;input&gt; (sólo para el tipo = "imagen" )</td>
+                               
+                             </tr>
+
+                             
+                             </tbody>
+                         </table>
+                         <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-bell-o"></i> Los atributos globales.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;input&gt; también es compatible con el <u><a href=http://www.w3schools.com/tags/ref_standardattributes.asp> de los atributos globales en HTML </u>.</p>
+                              
+                          </blockquote>
+                          <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-bookmark-o"></i> Atributos de eventos.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta  &lt;input&gt; también es compatible con la <u><a href=http://www.w3schools.com/tags/ref_eventattributes.asp >atributos de eventos en HTML .</u></p>
+                              
+                          </blockquote>
+                          <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-plus-square-o"></i>Páginas relacionadas.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Tutorial de HTML:<u> <a href=http://www.w3schools.com/html/html_forms.asp>formularios HTML</u></p></a>
+                              <p>referencia HTML DOM:</p>
+                              
+                          </blockquote>
+                          <p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_button.asp>Botón de objetos de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_checkbox.asp>Casilla de verificación objeto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_color.asp>Entrada de color de objetos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_date.asp>Fecha de entrada Objeto</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_datetime.asp>Objeto de entrada de fecha y hora</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_datetime-local.asp>De entrada de objeto DatetimeLocal</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_email.asp>Objeto de entrada de correo electrónico</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_fileupload.asp>Objeto de entrada FileUpload</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_hidden.asp>Entrada de objetos ocultos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_input_image.asp>Imagen de entrada de objetos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_month.asp>Mes objeto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_number.asp>Número de objetos de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_password.asp>Contraseña objeto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_range.asp>Rango de entrada de objetos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_radio.asp>Objeto de entrada Radio</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_reset.asp>Restablecer objeto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_search.asp>Buscar entrada de objetos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_submit.asp>Presentar la entrada de objetos</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_text.asp>Objeto de texto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_input_time.asp>Tiempo de objetos de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_url.asp>URL del objeto de entrada</u></p>
+                          <p><u><a href=http://www.w3schools.com/jsref/dom_obj_week.asp>Semana objeto de entrada</u></p>
+						</a>
+                           <div class="row invoice-info">
+                        <h1>Ajustes por defecto CSS.</h1>
+                        <p>Ninguna.</p>
+                          </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
