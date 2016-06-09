@@ -133,6 +133,14 @@
   margin: 0;
   font-weight: 300;
 }
+
+.html5logo {
+  /*position:relative;*/
+  background-image:url('../images/rsz_html5.png');
+  background-repeat:no-repeat;
+  background-position:left;
+}
+
 .profile.img_2 {
   text-align: center;
 }

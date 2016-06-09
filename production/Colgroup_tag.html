@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Etiqueta colgroup | </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Documenta!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Bienvenidos,</span>
+                <h2>Aprendices</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>Categoria</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> HTML5 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tt_tag.html">&lt;colgroup&gt;</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i> CSS3 <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-desktop"></i> PHP <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-users"></i> Desarrolladores <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">HTML</a></li>
+                      <li><a href="media_gallery.html">CSS</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">Zulma Mesa 
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;">  Profile</a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Help</a>
+                    </li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+
+          <div class="">
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>HTML &lt;colgroup&gt; Etiqueta. <small style="color: red" >No soportada en HTML5</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <section class="content invoice">
+                      <!-- info row -->
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-code"></i> Ejemplo &lt;colgroup&gt;.
+                            <small class="pull-right">Fecha: 18/05/2016</small>
+                        </h1>
+                        <blockquote>
+                          <p>Ajuste el color de fondo de las tres columnas con los &lt;colgroup&gt; y &lt;col&gt; etiquetas:</p>
+          
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            <code>&lt;table&gt; <br> &lt;colgroup&gt;<br> &lt;col span=&quot;2&quot; style=&quot;background-color:red&quot;&gt; <br>&lt;col style=&quot;background-color:yellow&quot;&gt; <br>&lt;/colgroup&gt; <br>&lt;tr&gt;<br> &lt;th&gt;ISBN&lt;/th&gt; <br> &lt;th&gt;Titulo&lt;/th&gt;<br> &lt;th&gt;Precio&lt;/th&gt;<br> &lt;/tr&gt;<br> &lt;tr&gt; <br>&lt;td&gt;3476896&lt;/td&gt; <br>&lt;td&gt;Mi primer HTML&lt;/td&gt;<br> &lt;td&gt;$53&lt;/td&gt;<br> &lt;/tr&gt;<br> &lt;/table&gt;</code> 
+                          </p>
+                        </blockquote>
+                      </div>
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-home"></i> Definición y Uso.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                            <p>La etiqueta &lt;colgroup&gt; especifica un grupo de una o más columnas en una tabla para el formato.</p> 
+                             <p>La etiqueta &lt;colgroup&gt;es útil para aplicar estilos de columnas completas, en lugar de repetir los estilos para cada celda, para cada fila.</p> 
+
+                            <p><b>Nota</b>La etiqueta &lt;colgroup&gt; debe ser un hijo de un elemento &lt;table&gt; , después de cualquier &lt;caption&gt;  elementos y antes de cualquier &lt;culata en T&gt;, &lt;tbody&gt;, &lt;tfoot&gt; y &lt;tr&gt; elementos..</p> 
+
+                            <p><b>Consejo</b>Para definir propiedades diferentes a una columna dentro de un &lt;colgroup&gt;, utilice el &lt;col&gt; etiqueta dentro de la etiqueta &lt;colgroup&gt;.</p> 
+                            
+                            
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-globe"></i> Soporte de Navegadores.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="x_panel">
+                                  <div class="x_content">
+                                     <table class="table table-striped">
+                                        <tbody><tr>
+                                          <th style="width:20%;font-size:16px;text-align:left;">Elemento</th>
+                                          <th style="width:31px; height: 30px" class="bsChrome" title="Chrome"><img src="" alt=""></th>
+                                          <th style="width:31px; height: 30px;" class="bsEdge" title="Internet Explorer / Edge"></th>
+                                          <th style="width:31px; height: 30px;" class="bsFirefox" title="Firefox"></th>
+                                          <th style="width:31px; height: 30px;" class="bsSafari" title="Safari"></th>
+                                          <th style="width:31px; height: 30px;" class="bsOpera" title="Opera"></th>                
+                                        </tr>
+                                        <tr>
+                                          <td style="text-align:left;">&lt;colgroup&gt;</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                          <td>Si</td>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                              </div>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-cogs"></i> Atributos 
+                        </h1>
+                         
+                        <div class="col-xs-12 table">
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th >Atributo</th>
+                                <th>Valor</th>
+                                <th style="width: 59%">Descripción</th>
+                                
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_align.asp> <b><u>Align</u></b></a></td>
+                                <td> left <br>
+                  right <br>
+                  center <br>
+                  justify
+                  char</td>
+                                <td><small style="color: red" >No se admite en HTML5.</small> <br>
+                                Alinear el contenido en un grupo de columnas &lt;col&gt;</td>
+                                </tr>
+
+                                <tr> 
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_char.asp> <b><u>Char</u></b></a></td>
+                                <td> character </td>
+                                <td><small style="color: red" >No se admite en HTML5.</small> <br>
+                               Alinear el contenido en un grupo de columnas a un personaje</td>
+                                </tr>
+
+                                <tr> 
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_charoff.asp> <b><u>Charoff</u></b></a></td>
+                                <td> number </td>
+                                <td><small style="color: red" >No se admite en HTML5.</small> <br>
+                               Establece el número de caracteres que el contenido se alineará desde el carácter especificado por el atributo Char</td>
+                                </tr>
+                              
+                               <tr> 
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_span.asp> <b><u>Span</u></b></a></td>
+                                <td> number </td>
+                                <td>
+                               Especifica el número de columnas de un grupo de columnas debe abarcar</td>
+                                </tr>
+
+                                <tr> 
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_valign.asp> <b><u>Valign</u></b></a></td>
+                                <td> top <br>
+                                     middle <br>
+                                     bottom <br>
+                                  baseline </td>
+                                <td>
+                               <small style="color: red" >No se admite en HTML5.</small> <br>
+                               Vertical alinear el contenido en un grupo de columnas</td>
+                                </tr>
+
+                                  <tr> 
+                                <td><a href=http://www.w3schools.com/tags/att_colgroup_width.asp> <b><u>Width</u></b></a></td>
+                                <td> Pixels <br>
+                %<br>
+                relative_length </td>
+                                <td>
+                               <small style="color: red" >No se admite en HTML5.</small> <br>
+                               Especifica el ancho de un grupo de columnas </td>
+                                </tr>
+
+                              </tbody>
+                          </table>
+                      
+                      <!-- /.row -->
+                       <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-code-o"></i> Diferencias entre HTML 4.01 y HTML5.
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Sintaxis CSS: &lt;p style="font-family:'Lucida Console', monospace"&gt;</p>
+                              <p>La etiqueta &lt;tt&gt; no es soportada en HTML5.</p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-check-square"></i> Los atributos globales
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;colgroup&gt; también es compatible con el <a href=http://www.w3schools.com/tags/ref_standardattributes.asp> <u> de los atributos globales en HTML .</u></a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-check-square-o"></i> Atributos de eventos 
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La etiqueta &lt;colgroup&gt; tambien apoya la <a href=vhttp://www.w3schools.com/tags/ref_eventattributes.asp> <u> de atributos de eventos en HTML.</u></a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-file-powerpoint-o"></i> Páginas relacionadas 
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>Referencia HTML DOM: <a href=http://www.w3schools.com/jsref/dom_obj_colgroup.asp> <u>  Objeto ColumnGroup</u></a></p>
+                          </blockquote>
+                        </div>
+                      </div>
+
+                      <div class="row invoice-info">
+                        <h1>
+                            <i class="fa fa-share-alt"></i>  Ajustes por defecto CSS
+
+                        </h1>
+                        <div class="col-sm-12 invoice-col">
+                          <blockquote>
+                              <p>La mayoría de los navegadores mostrarán el elemento &lt;col&gt; con los siguientes valores predeterminados:</p>
+                          </blockquote>
+                           <h5>Ejemplo</h5>
+                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                           <code>colgroup { <br> display: table-column-group; <br> } </code>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
